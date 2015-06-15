@@ -4,7 +4,7 @@ if has('vim_starting')
     NeoBundleFetch 'Shougo/neobundle.vim'
   
     NeoBundle "Shougo/neosnippet"
-    NeoBundle "Shougo/neosnippet-snippets"
+    NeoBundle "git@github.com:NaotoFushimi/neosnippet-snippets.git"
     NeoBundle "honza/vim-snippets"
     
     NeoBundle 'thinca/vim-quickrun'
@@ -72,7 +72,8 @@ set ruler
 ""jjでインサート/コマンドモード
 inoremap <silent> jj <ESC>
 
-colorscheme desert
+colorscheme molokai
+set t_Co=256
 "colorscheme wombat
 "source $HOME/.bundle/vim-matchit/plugin/matchit.vim
 
